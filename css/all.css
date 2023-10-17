@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 100px;
+  color: hsl(210, 10%, 33%);
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  margin: 25px 0 50px 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  border-radius: 16px;
+  box-shadow: 0 12px 30px grey;
+}
+
+.btn-primary {
+  background-color: hsl(233, 100%, 69%);
+}
+.btn-primary:hover {
+  background-color: #94a0ff;
+}
+
+.btn-success {
+  background-color: hsl(171, 66%, 44%);
+}
+.btn-success:hover {
+  background-color: #3cd7c0;
+}
+
+.bg {
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.bg .container .header {
+  padding: 50px 0;
+}
+.bg .container .header .btn_ls {
+  margin-bottom: 80px;
+}
+.bg .container-fluid .row .col-12 {
+  position: relative;
+}
+.bg .container-fluid .row .col-12 .computer {
+  position: absolute;
+  left: -30px;
+}
+.bg .icon {
+  margin-bottom: 25px;
+}
+.bg .partner {
+  margin: 50px 0;
+  max-width: 100%;
+}
+.bg .container-fluid {
+  max-width: 100%;
+  padding: 25px 0;
+}
+.bg .container-fluid .footer_logo {
+  width: 40px;
+  height: 40px;
+  margin: 15px 0;
+}
+.bg .container-fluid .footer_content_web a {
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+}
+.bg .container-fluid .footer_content_web a:hover {
+  color: hsl(171, 66%, 44%);
+}
+.bg .container-fluid .footer_content_mobile a {
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+}
+.bg .container-fluid .footer_content_mobile a:hover {
+  color: hsl(171, 66%, 44%);
+}
+.bg .container-fluid .footer_content_mobile {
+  display: none !important;
+}
+.bg .container-fluid .footer_icon {
+  display: block;
+  margin-left: 10px;
+}
+.bg .container-fluid .footer_icon:hover {
+  filter: invert(63%) sepia(49%) saturate(608%) hue-rotate(121deg) brightness(87%) contrast(89%);
+}
+
+@media screen and (max-width: 576px) {
+  .bg .container .header .container button .full_width {
+    width: 100%;
+  }
+  .bg .container-fluid .row .col-12 {
+    position: static;
+  }
+  .bg .container-fluid .row .col-12 .computer {
+    position: static;
+    margin-bottom: 40px;
+  }
+  .bg .container-fluid .row .col-12 ul {
+    text-align: center;
+  }
+  .bg .container-fluid .footer_content_web {
+    display: none !important;
+  }
+  .bg .container-fluid .footer_content_mobile {
+    display: block !important;
+  }
+  .bg .container-fluid .footer_icon {
+    margin: 0 12px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .bg {
+    background-image: url(../images/bg-header-mobile.png);
+  }
+}/*# sourceMappingURL=all.css.map */
